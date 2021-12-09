@@ -1,0 +1,66 @@
+.header {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  background-color: #4b9bad;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.leftSpace {
+  width: 11rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 11rem;
+}
+
+.button {
+  background-color: #32a86d;
+  color: #ffffff;
+  border-radius: 0.75rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  outline: none;
+  height: 2rem;
+}
+
+.button:hover {
+  background-color: #89dcb3;
+}
+
+.title {
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .leftSpace {
+    display: none;
+  }
+
+  .myProfile {
+    width: 4rem;
+    font-size: 0.6rem;
+  }
+
+  .buttons {
+    width: 6.5rem;
+  }
+
+  .button {
+    width: 3rem;
+    height: 1.5rem;
+    font-size: 0.48rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+}
